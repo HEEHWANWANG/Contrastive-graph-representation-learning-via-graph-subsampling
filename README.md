@@ -28,7 +28,7 @@ Sub graph를 샘플링하는 것을 augmentation의 방법으로 활용하여 co
 또한 중요 노드로부터 서로 다른 k의 k-hop sub graph sampling을 진행하여, local graph와 global graph 간의 비교를 통해서 모델이 그래프의 hierarchical한 특징을 포착할 수 있게 하였다는 점에서 차이가 존재한다.  
 
 ## Methods 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/HEEHWANWANG/Contrastive-graph-representation-learning-via-graph-subsampling/tree/main/figures/model.png)
 
 _**Loss**_: Contrastive Learning에서 많이 쓰이는 InfoNCELoss를 사용한다.[[3]]
 기존의 방법들은 하나의 이미지에서 augmentation을 적용하여 두개의 이미지를 만들고, 같은 이미지들로부터 나온 이미지는 같은 것으로 다른 이미지들로부터 나온 이미지는 다른 것으로 구분할 수 있도록 loss를 구성하였는데, 우리 연구의 목적은 Contrastive learning의 방식을 통해 molecular graph의 hierarchical한 특징을 학습하는 것이 목표이기 때문에, augmentation된 데이터를 비교하는 것이 아니라 original graph와 subgraph를 비교하는 방식으로 loss를 구성하였다.  
