@@ -1,7 +1,7 @@
 # Contrastive-graph-representation-learning-via-graph-subsampling
 
 ## Project Task 
-_**Hierarchical molecular graph representation learning via contrastive loss-based self-supervised learning. **_
+_**Hierarchical molecular graph representation learning via contrastive loss-based self-supervised learning.**_
 
 ## Objective and Motivation 
 이 연구에서는 라벨없이 데이터만으로 학습하는 모델인 self supervised learning을 활용하여 molecular graph의 heirarchical한 특징을 잘 학습할 수 있는지를 확인해보고자 한다.  
