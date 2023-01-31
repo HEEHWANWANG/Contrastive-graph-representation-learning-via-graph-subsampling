@@ -48,6 +48,19 @@ _**Graph Subsampling**_: Molecular graph의 경우, 같은 molecule이라면 gra
 ## Dataset 
 Zinc15 dataset from [deepchem](https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html?highlight=Zinc)
  
+
+## Network
+- Backbone model: GCN with 4 layers  
+- Baseline model: backbone model (with MAE loss )  
+-  our model: backbone + 2 layer MLP (with contrastive loss)  
+
+## Result 
+![alt text](./figures/model.png)
+**Figure 1**. Test MAE loss from Baseline model  
+  
+![alt text](./figures/model.png)
+**Figure 2**. Linear probing evaluation according to pretraining epochs.  
+ 
 [1]: https://arxiv.org/abs/1810.00826
 [2]: https://papers.nips.cc/paper/2018/hash/e77dbaf6759253c7c6d0efc5690369c7-Abstract.html
 [3]: https://proceedings.mlr.press/v119/chen20j.html
