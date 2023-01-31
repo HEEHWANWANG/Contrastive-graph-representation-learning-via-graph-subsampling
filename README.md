@@ -55,10 +55,10 @@ Zinc15 dataset from [deepchem](https://deepchem.readthedocs.io/en/latest/api_ref
 -  our model: backbone + 2 layer MLP (with contrastive loss)  
 
 ## Result 
-![alt text](./figures/model.png)
+![alt text](./figures/figure1.png)
 **Figure 1**. Test MAE loss from Baseline model  
   
-![alt text](./figures/model.png)
+![alt text](./figures/figure2.png)
 **Figure 2**. Linear probing evaluation according to pretraining epochs.  
  
 [1]: https://arxiv.org/abs/1810.00826
